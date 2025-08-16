@@ -1,14 +1,3 @@
-/*
- * Java-based ID Mail Recognition System - Backend Skeleton
- * 
- * This is a basic Java Spring Boot REST API for handling ID mail recognition requests.
- * The backend connects to MongoDB for storing recognized IDs and their details.
- * 
- * The frontend (Angular, HTML, CSS, JS) and server (Node.js/Express) are to be developed separately.
- * 
- * This code provides a starting point for the Java backend.
- */
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
@@ -87,9 +76,3 @@ class IdRecognitionController {
     }
 }
 
-/*
- * Note:
- * - You need to configure MongoDB connection in application.properties.
- * - The Angular frontend will call these REST endpoints.
- * - Node.js/Express can be used as a middleware or for additional server logic.
- */
